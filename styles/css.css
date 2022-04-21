@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+}
+
+form {
+    padding: 10px;
+	margin: 0 50px 10px 50px;
+	border-radius: 10px;
+}
+
+input {
+	border-radius: 5px;
+	font-size: 1em;
+}
+
+select {
+	border-radius: 5px;
+	font-size: 1em;
+	background-color: white;
+}
+
+fieldset {
+	border: none;
+	margin-bottom: 5px;
+	position: relative;
+	padding: 2em 1em .5em 1em;
+	z-index: 0;
+}
+
+legend span {
+	position: absolute;
+	left: 0;
+	font-size: 1.25em;
+	margin-top: .5em;
+	margin-left: .5em;
+}
+
+label {
+	display: block;
+	position: relative;
+	margin: 12px 0;
+}
+
+#itemlist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#item {
+	text-align: center;
+	border-radius: 25px;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 6px;
+	max-width: fit-content;
+}
+
+#item:hover {
+	transform: scale(1.1);
+	transition: 5ms;
+}
+
+#itemlist img {
+	width: 200px;
+	height: 200px;
+	z-index: -1;
+}
+
+#item input[type=number] {
+	width: 40px;
+}
+
+#cart {
+	display: flex;
+	flex-wrap: nowrap;
+	min-width: 98%;
+}
+
+#cartitemlist {
+	display: flex;
+	flex-direction: column;
+	min-width: 58%;
+}
+
+.cartitem {
+	border-radius: 25px;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 7px;
+	display: flex;
+	flex-flow: row;
+}
+
+.cartitem img {
+	max-width: 80px;
+	max-height: 80px;
+	margin: 5px;
+}
+
+#orderitemlist {
+	display: flex;
+	flex-direction: column;
+	min-width: 58%;
+	margin: 7px;
+	border-radius: 25px;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.orderitem {
+	margin: 7px;
+	display: flex;
+	flex-flow: row;
+}
+
+.orderitem img {
+	max-width: 80px;
+	max-height: 80px;
+	margin: 5px;
+}
+
+.itemdesc {
+	flex: 1 1 0px;
+}
+
+#totalbox {
+	border-radius: 25px;
+	border: 1px solid black;
+	padding: 10px;
+	min-width: 40%;
+}
+
+#navbar {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+#navbar img {
+	max-width: 25%;
+}
+
+#navbar a {
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: gainsboro;
+    transition: .5s;
+}
+
+.navlink {
+    float: left;
+}
+
+.userlink {
+    float: right;
+}
